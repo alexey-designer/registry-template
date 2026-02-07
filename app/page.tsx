@@ -37,10 +37,10 @@ export default function Home() {
               MD default
             </Button>
 
-            <Button size="lg" variant="default">
-              LG default
+            <Button size="icon-sm" variant="default">
+              
             </Button>
-            
+
           </div>
           
         </div>
