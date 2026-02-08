@@ -27,19 +27,44 @@ export default function Home() {
             <OpenInV0Button name="hello-world" className="w-fit" />
           </div>
 
-          <div className="flex items-center justify-center min-h-[400px] relative gap-2">
+          <div className="flex flex-col items-center justify-center min-h-[400px] relative gap-2">
+            <div className="flex gap-4 items-center">
 
-            <Button size="sm" variant="default">
-              SM default
-            </Button>
+              <Button size="md" variant="default">
+                MD default
+              </Button>
 
-            <Button size="md" variant="default">
-              MD default
-            </Button>
+              <Button size="md" variant="outline">
+                MD outline
+              </Button>
 
-            <Button size="icon-sm" variant="default">
-              
-            </Button>
+              <Button size="md" variant="secondary">
+                MD secondary
+              </Button>
+
+              <Button size="md" variant="ghost">
+                MD ghost
+              </Button>
+
+              <Button size="md" variant="destructive">
+                MD destructive
+              </Button>
+
+              <Button size="md" variant="link">
+                MD link
+              </Button>
+
+            </div>
+
+            <div className="flex gap-4 items-center">
+
+              <Button size="icon-md" variant="default">
+              </Button>
+
+              <Button size="icon-md" variant="outline">
+              </Button>
+
+            </div>
 
           </div>
           
