@@ -42,19 +42,20 @@
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
 
-  --color-g-primary: var(--g-primary);
-  --color-g-primary-hover: var(--g-primary-hover);
-  --color-g-primary-active: var(--g-primary-active);
+  --color-g-brand: var(--g-brand);
+  --color-g-brand-hover: var(--g-brand-hover);
+  --color-g-brand-active: var(--g-brand-active);
 
 }
 
 :root {
   --radius: 0.5rem;
 
-  --g-ring: #2378D9;
-  --g-primary: #2378D9;
-  --g-primary-hover: #0F6ACA;
-  --g-primary-active: #0c61bc;
+  /* --g-ring: #2378D9; */
+  
+  --g-brand: #2378D9;
+  --g-brand-hover: #0F6ACA;
+  --g-brand-active: #0c61bc;
   
   /* --- */
 
@@ -159,10 +160,10 @@
 
   .cn-button-variant-default {
     @apply
-    bg-g-primary
+    bg-g-brand
     text-primary-foreground
-    hover:bg-g-primary-hover
-    active:bg-g-primary-active;
+    hover:bg-g-brand-hover
+    active:bg-g-brand-active;
   }
 
   .cn-button-variant-outline {
