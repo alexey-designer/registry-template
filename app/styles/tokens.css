@@ -1,0 +1,84 @@
+:root, .light, .light-theme {
+  --brand-25: #fcfdff;
+  --brand-50: #f5f9ff;
+  --brand-100: #eaf3fe;
+  --brand-200: #dcecff;
+  --brand-300: #cce2ff;
+  --brand-400: #b8d4fc;
+  --brand-500: #9fc3f5;
+  --brand-600: #7cabee;
+  --brand-700: #2371d7;
+  --brand-800: #1063c8;
+  --brand-900: #1f6ed4;
+  --brand-950: #12335f;
+
+  /* Success — cool green (~148°), harmonizes with brand blue */
+  --success-25: #f3fef7;
+  --success-50: #e8fdf1;
+  --success-100: #ccf8e2;
+  --success-200: #9aefc6;
+  --success-300: #5fe4a4;
+  --success-400: #28d080;
+  --success-500: #11b768;
+  --success-600: #0d9454;
+  --success-700: #0a7844; /* 5.6:1 on white ✓ */
+  --success-800: #085e36;
+  --success-900: #064c2c;
+  --success-950: #032c19;
+
+  /* Warning — amber (~38°) */
+  --warning-25: #fffdf0;
+  --warning-50: #fff9e0;
+  --warning-100: #fff2b0;
+  --warning-200: #ffe680;
+  --warning-300: #ffd540;
+  --warning-400: #ffc018;
+  --warning-500: #e8a600;
+  --warning-600: #c08800;
+  --warning-700: #8a6200; /* 5.7:1 on white ✓ */
+  --warning-800: #6e4d00;
+  --warning-900: #5a3f00;
+  --warning-950: #342500;
+
+  /* Danger — red (~3°) */
+  --danger-25: #fff8f7;
+  --danger-50: #ffeeec;
+  --danger-100: #ffd9d6;
+  --danger-200: #ffb3ae;
+  --danger-300: #ff8480;
+  --danger-400: #ff4f4a;
+  --danger-500: #f52420;
+  --danger-600: #e01310;
+  --danger-700: #c20d09; /* 6.3:1 on white ✓ */
+  --danger-800: #9e0807;
+  --danger-900: #820606;
+  --danger-950: #4f0404;
+
+  /* Neutral — warm gray */
+  --neutral-25: #fdfdfc;
+  --neutral-50: #f9f9f8;
+  --neutral-100: #f1f0ef;
+  --neutral-200: #e9e8e6;
+  --neutral-300: #e2e1df;
+  --neutral-400: #dad9d6;
+  --neutral-500: #cfcecb;
+  --neutral-600: #bcbbb6;
+  --neutral-700: #8e8d87;
+  --neutral-800: #83827d;
+  --neutral-900: #64635e;
+  --neutral-950: #21201d;
+
+  /* Additional — violet (~264°) */
+  --additional-25: #faf8ff;
+  --additional-50: #f3efff;
+  --additional-100: #e8e0ff;
+  --additional-200: #d5c5ff;
+  --additional-300: #b89dff;
+  --additional-400: #9872ff;
+  --additional-500: #7a47f5;
+  --additional-600: #6530db;
+  --additional-700: #5220ba; /* 9.3:1 on white ✓ */
+  --additional-800: #3f1895;
+  --additional-900: #331478;
+  --additional-950: #1e0c48;
+}

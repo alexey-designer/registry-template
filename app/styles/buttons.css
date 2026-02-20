@@ -23,7 +23,7 @@
 
   .cn-button-variant-default {
     @apply
-    bg-g-brand
+    bg-brand-700
     text-primary-foreground
     hover:bg-g-brand-hover
     active:bg-g-brand-active;
