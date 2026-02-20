@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+@import "./buttons.css";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -52,11 +53,11 @@
   --radius: 0.5rem;
 
   /* --g-ring: #2378D9; */
-  
+
   --g-brand: #2378D9;
   --g-brand-hover: #0F6ACA;
   --g-brand-active: #0c61bc;
-  
+
   /* --- */
 
   --background: oklch(1 0 0);
@@ -132,129 +133,5 @@
   }
   body {
     @apply bg-background text-foreground;
-  }
-}
-
-@layer components {
-
-  /* Button base style */
-
-  .cn-button {
-    @apply
-    cursor-pointer
-    rounded-lg
-    border
-    border-transparent
-    bg-clip-padding
-    text-sm
-    font-medium
-    aria-invalid:ring-[2px]
-    aria-invalid:ring-destructive/20
-    aria-invalid:border-destructive
-    dark:aria-invalid:ring-destructive/40
-    dark:aria-invalid:border-destructive/50
-    [&_svg:not([class*='size-'])]:size-4;
-  }
-
-  /* Button styles */
-
-  .cn-button-variant-default {
-    @apply
-    bg-g-brand
-    text-primary-foreground
-    hover:bg-g-brand-hover
-    active:bg-g-brand-active;
-  }
-
-  .cn-button-variant-outline {
-    @apply 
-    border-border 
-    bg-background 
-    hover:bg-muted 
-    hover:text-foreground 
-    dark:bg-input/30 
-    dark:border-input 
-    dark:hover:bg-input/50 
-    aria-expanded:bg-muted 
-    aria-expanded:text-foreground;
-  }
-
-  .cn-button-variant-secondary {
-    @apply
-    bg-secondary
-    text-secondary-foreground
-    hover:bg-secondary/80
-    aria-expanded:bg-secondary
-    aria-expanded:text-secondary-foreground;
-  }
-
-  .cn-button-variant-ghost {
-    @apply
-    hover:bg-muted
-    hover:text-foreground
-    dark:hover:bg-muted/50
-    aria-expanded:bg-muted
-    aria-expanded:text-foreground;
-  }
-
-  .cn-button-variant-destructive {
-    @apply
-    bg-destructive/10
-    text-destructive
-    hover:bg-destructive/20
-    focus-visible:ring-destructive/20
-    focus-visible:border-destructive/40
-    dark:bg-destructive/20
-    dark:focus-visible:ring-destructive/40
-    dark:hover:bg-destructive/30;
-  }
-
-  .cn-button-variant-link {
-    @apply
-    text-primary
-    underline-offset-4
-    hover:underline;
-  }
-
-  /* Button sizes */
-
-  .cn-button-size-sm {
-    @apply
-    h-7
-    gap-1
-    rounded-md
-    px-2.5
-    text-[0.8rem]
-    [&_svg:not([class*='size-'])]:size-3.5;
-  }
-
-  .cn-button-size-md {
-    @apply
-    h-10
-    gap-1.5
-    px-4;
-  }
-
-  .cn-button-size-lg {
-    @apply
-    h-12
-    gap-1.5
-    px-6;
-  }
-
-  /* Button icons sizes */
-
-  .cn-button-size-icon-sm {
-    @apply
-    size-7
-    rounded-md;
-  }
-
-  .cn-button-size-icon-md {
-    @apply size-8;
-  }
-
-  .cn-button-size-icon-lg {
-    @apply size-9;
   }
 }
